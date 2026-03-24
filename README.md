@@ -35,7 +35,7 @@ pokemon/
 │   └── BattleService.java
 └── ui/
     └── ConsoleUI.java
-text```
+```
 
     Technologies
 Java
