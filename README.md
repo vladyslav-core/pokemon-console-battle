@@ -35,57 +35,7 @@ pokemon/
 │   └── BattleService.java
 └── ui/
     └── ConsoleUI.java
-```
-
-    Technologies
-Java
-Object-Oriented Programming
-Layered architecture
-Console I/O
-How to Run
-Open the project in IntelliJ IDEA or another Java IDE
-Run Main.java
-Follow the instructions in the console
-Architecture Notes
-Model
-
-Contains the core domain objects:
-
-Pokemon
-Attack
-BattlePokemon
-Repository
-
-Responsible for storing and retrieving Pokémon and attacks.
-
-Service
-
-Contains the battle logic and connects repositories with the UI.
-
-UI
-
-Handles all console input and output.
-
-Why This Project
-
-This project was created as a practice project to improve:
-
-Java fundamentals
-OOP design
-code organization
-repository/service separation
-console application structure
-Possible Future Improvements
-attack accuracy checks
-type effectiveness system
-power points (PP)
-status effects
-unit tests
-file or database persistence
-better battle balancing
-Author
-
-Created as a Java learning and portfolio project.
+    ```
 
 ## Technologies
 
@@ -103,6 +53,7 @@ Created as a Java learning and portfolio project.
 ## Architecture Notes
 
 ### Model
+
 Contains the core domain objects:
 
 - `Pokemon`
@@ -110,12 +61,15 @@ Contains the core domain objects:
 - `BattlePokemon`
 
 ### Repository
+
 Responsible for storing and retrieving Pokémon and attacks.
 
 ### Service
+
 Contains the battle logic and connects the repositories with the UI.
 
 ### UI
+
 Handles all console input and output.
 
 ## Why This Project
@@ -140,4 +94,4 @@ This project was created as a practice project to improve:
 
 ## Author
 
-Created as a Java learning and portfolio project.
+Vladyslav Petryshyn
